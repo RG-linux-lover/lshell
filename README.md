@@ -1,9 +1,7 @@
 # lshell
-limit shell 
+### Limit Shell in ubuntu16
 
-### In ubuntu 16
-
-'''
+```
 sudo apt-get install lshell
 sudo adduser --shell /usr/bin/lshell ritik
-'''
+```
