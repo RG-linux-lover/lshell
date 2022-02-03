@@ -75,3 +75,22 @@ User sarah:
     is allowed default command ‘ping’ but not ‘ls’
     strictness is set to 1 (he is not allowed to type an unknown command)
 ```
+
+
+### In config file
+
+
+```
+Host 192.168.122.102
+  User root
+  IdentityFile /home/ubuntu/keys/workstation.pem
+Host 65.0.81.192
+  User ubuntu
+  IdentityFile /home/ubuntu/keys/main.pem
+```
+### In nano /etc/lshell.conf
+
+```
+allowed_cmd_path
+aliases
+```
